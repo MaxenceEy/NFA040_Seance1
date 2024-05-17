@@ -13,7 +13,7 @@ jobs:
           script: |
             cd $HOME/www/
   Copy:
-    needs: Connexion
+    needs: Connexion 
     runs-on: ubuntu-latest
     steps:
       - name: Connexion SSH avec le serveur
